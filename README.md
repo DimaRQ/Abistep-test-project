@@ -1,4 +1,5 @@
 # Структура проекта
+```
 src/
 ├── app/
 │ ├── v1/
@@ -22,11 +23,16 @@ src/
 │ └── test_wallet.py # тесты переводов
 │
 └── main.py # точка входа
+```
+
+---
 
 # Документация
 
 - Swagger `http://localhost:8000/docs`
 - Redoc `http://localhost:8000/redoc`
+
+---
 
 # Тесты
 
@@ -36,6 +42,8 @@ src/
 ```bash
 python -m pytest
 ```
+
+---
 
 # Форматирование
 
